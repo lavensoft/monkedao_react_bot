@@ -14,7 +14,7 @@ const client = new Client({ intents: [
    ]
 });
 
-const YOUR_BOT_TOKEN = 'NDYwMDE0MzAyNDU2MzE1OTI0.GSCpuS.8kTQJtVLAr17Rc8tHlwLlopwbE2qtaihxWuT0k';
+const BOT_TOKEN = 'BOTTOKEN';
 const CHANNEL_REACT_CHECK = ["test"];
 const REACT_ROLE_EXCEPT = []; //Skip roles react
 
@@ -48,4 +48,4 @@ client.on(Events.MessageReactionAdd, async (reaction, user) => {
    }
  });
 
-client.login(YOUR_BOT_TOKEN);
+client.login(BOT_TOKEN);
